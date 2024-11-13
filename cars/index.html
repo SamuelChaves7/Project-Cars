@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samuel Chaves | 'CHAVE.dev">
+    <title>CAR WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="logo fp">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Carros</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="list">
+
+            <div class="item active">
+                <div class="car-img">
+                    <img src="imagens/1.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">PORSCHE</p>
+                    <h2>911 Turbo S</h2>
+                    <p class="description">
+                        478kW/650cv <br> 0-100km/h em 2,7s <br> Velocidade Máxima: 330km/h
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="imagens/2.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">FERRARI</p>
+                    <h2>Portofino</h2>
+                    <p class="description">
+                        456kW/620cv <br> 0-100km/h em 3,45s <br> Velocidade Máxima: > 320km/h
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="imagens/3.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">Lamborghini</p>
+                    <h2>Aventador</h2>
+                    <p class="description">
+                        574kW/780cv <br> 0-100km/h em 2,8s <br> Velocidade Máxima: 355km/h
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button class="seta-esquerda" id="prev"><img src="imagens/arrow.png" alt="seta-esquerda"></button>
+            <button class="seta-direita" id="next" ><img src="imagens/arrow.png" alt="seta-direita"></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
